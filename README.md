@@ -20,7 +20,6 @@ My interests lie in leveraging data-driven insights to solve problems and delive
 - 🛠️ **Technologies & Tools**: 
   - Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
   - SQL and Databases
-  - Cloud Platforms and APIs
   - Streamlit for Web Deployment
   - Git & Version Control
 

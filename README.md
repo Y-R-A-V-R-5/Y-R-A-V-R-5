@@ -29,7 +29,7 @@ A full MOT benchmarking suite implementing:
 - SORT, DeepSORT, OCSORT  
 - Track-length analysis, ID-switch metrics, trajectory visualizations  
 - YOLOv11m as detector  
-**Repo:** [Link](https://github.com/Y-R-A-V-R-5/VisionTracker)
+**Repo:** [VisionTracker](https://github.com/Y-R-A-V-R-5/VisionTracker)
 
 ---
 
@@ -38,7 +38,7 @@ Treating YOLO as a modular system:
 - Backbone–head swapping (v8, v10, v11)  
 - Custom hybrids (v8v10, v10v11, v11v8)  
 - Tiny-object specialization, latency profiling, tensor-shape validation  
-**Repo:** (https://github.com/Y-R-A-V-R-5/YOLO-Tweaks)
+**Repo:** [YOLO-Tweaks](https://github.com/Y-R-A-V-R-5/YOLO-Tweaks)
 
 ---
 

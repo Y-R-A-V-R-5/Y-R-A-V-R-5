@@ -1,7 +1,33 @@
 # 👋 Hi, I'm Adithya Vardhan Reddy  
 **ML Engineer | Computer Vision | Multimodal Retrieval | Architecture-Level R&D**
 
-I build practical, reproducible, CPU-efficient ML systems with a focus on clear reasoning, fast iteration, and architecture-level experimentation.
+
+## 🚀 Overview
+ML Engineer specializing in **Computer Vision, Multimodal Retrieval, and Architecture R&D**, focused on building **efficient, interpretable, and reproducible systems under real-world constraints**.
+
+- Design **CPU-efficient pipelines** without relying on heavy GPU scaling  
+- Explore **model behavior (failure modes, drift, sensitivity)** beyond surface metrics  
+- Build **modular experimental systems** for controlled ablations  
+- Work on **architecture-level innovation** (not just training tweaks)  
+- Bridge **research ideas → deployable systems**
+
+---
+
+## ⚡ Core Engineering Philosophy
+- **Behavior > Benchmark**  
+  Accuracy alone is insufficient — emphasis on *why models fail, drift, or destabilize*
+
+- **CPU-first thinking**  
+  Systems are designed under constrained compute to expose inefficiencies early
+
+- **Experiments as systems**  
+  Reproducibility, parameter isolation, and structured ablations are mandatory
+
+- **Architecture over hacks**  
+  Preference for structural improvements vs post-hoc tricks
+
+- **Measure what matters**  
+  Latency, FLOPs, stability, ID-switches, and robustness tracked alongside accuracy
 
 ---
 
@@ -34,9 +60,13 @@ End-to-end engineering across:
 ## 🧩 Featured Projects
 
 ### 🔵 **1. VisionTracker — YOLOv11 + Multi-Object Tracking Benchmarking**
-A full benchmarking suite to evaluate real-world tracker behavior.  
-Includes trajectory plots, ID-switch analysis, per-frame comparisons, and custom visualization tooling.
 
+- End-to-end benchmarking suite combining **YOLOv11 + MOT pipelines**
+- Supports **SORT / DeepSORT / OCSORT** with unified evaluation interface
+- Tracks **ID-switches, track fragmentation, lifetime statistics**
+- Includes **trajectory visualization + sequence-level diagnostics**
+- Designed for **real-world comparison**, not just synthetic metrics
+  
 **Tech:** YOLOv11m, SORT, DeepSORT, OCSORT, custom metrics  
 **Repo:** https://github.com/Y-R-A-V-R-5/VisionTracker
 

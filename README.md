@@ -59,7 +59,8 @@ End-to-end engineering across:
 
 ## 🧩 Featured Projects
 
-### 🔵 **1. VisionTracker — YOLOv11 + Multi-Object Tracking Benchmarking**
+### 🔵 Vision Systems & Tracking
+**VisionTracker**
 
 - End-to-end benchmarking suite combining **YOLOv11 + MOT pipelines**
 - Supports **SORT / DeepSORT / OCSORT** with unified evaluation interface
@@ -72,70 +73,98 @@ End-to-end engineering across:
 
 ---
 
-### 🔵 **2. YOLO-Tweaks — Cross-Generation YOLO Hybrid Architectures**
-Treating YOLO as a modular architecture rather than a fixed model.
-
-**Includes:**
-- Backbone–head swapping (v8, v10, v11)  
-- Custom hybrids (v8v10, v10v11, v11v8)  
-- Tiny-object specialization on AgriPest  
-- FLOPs/params vs CPU latency profiling  
-- Tensor-shape validation tooling
+### 🔵 Architecture Research & YOLO Engineering
+**YOLO-Tweaks**
+- Cross-generation experimentation (**v8 / v10 / v11 hybrids**)
+- Flexible **backbone–head swapping via YAML-driven configs**
+- Focus on **tiny-object detection & feature retention**
+- Benchmarks **FLOPs vs CPU latency vs accuracy trade-offs**
+- Enables rapid testing of **custom modules & structural variants**
 
 **Repo:** https://github.com/Y-R-A-V-R-5/YOLO-Tweaks
 
 ---
 
-### 🔵 **3. SerpensGate-YOLOv8 (Company Project — Summary Only)**
-Custom plant-disease detection backbone with:
-- SerpensELAN, C2f-DySnake, SerpensCBAM  
-- Modified SPPF + full Ultralytics registry integration  
-- CPU-only training pipelines  
-*(Internal repo; code not public)*
+
+## 🏗️ Industrial & Private Work (Non-Public Due to IP)
+
+### 🧬 Custom Detection Systems
+**SerpensGate-YOLOv8**
+- Domain-specific backbone for **plant disease detection**
+- Integrates **SerpensELAN, DySnake, CBAM** for feature refinement
+- Built as a **CPU-only inference pipeline**
+- Optimized for **data-specific patterns rather than generic benchmarks**
+- Includes internal evaluation on **robustness to lighting & texture variation**
 
 ---
 
-### 🔵 **4. CLIP-Based Zero/Few-Shot Retrieval System (Company Project — Summary Only)**
-Deployed multimodal retrieval PoC using:
-- CLIP ViT-B/32 embeddings  
-- NNDescent + UMAP indexing  
-- Metadata-conditioned text guidance  
-*(Internal repo; code not public)*
+### 🔎 Multimodal Retrieval System
+- Built on **CLIP (ViT-B/32) embeddings** for image-text alignment
+- Uses **NNDescent for scalable ANN search**
+- **UMAP-based clustering** for structure discovery & visualization
+- Supports **metadata-conditioned retrieval (filtered semantic search)**
+- Designed for **low-latency querying with large embedding spaces**
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technical Stack
 
-**ML & Vision:**  
-PyTorch, Ultralytics YOLO (v8–v11), OpenCV  
+### ML & Vision
+- **PyTorch** for flexible model experimentation and low-level control  
+- **YOLO (v8–v11)** with custom architectural modifications  
+- **OpenCV** for preprocessing, pipeline integration, and visualization  
+- Strong focus on **CPU-bound optimization and profiling**
 
-**Retrieval & Embeddings:**  
-CLIP, FAISS, NNDescent  
+### Retrieval & Indexing
+- **CLIP** for multimodal embedding generation  
+- **FAISS / NNDescent** for efficient nearest neighbor search  
+- Emphasis on **scalable indexing under memory constraints**
 
-**Engineering:**  
-Python, Git, Reproducible ML repos, modular YAML/registry design  
+### Engineering & Systems
+- **Python** with modular, reusable pipeline design  
+- **Git** for version-controlled experimentation  
+- Structured workflows for **ablation tracking and reproducibility**
 
-**Visualization:**  
-Matplotlib, Seaborn  
-
-**Special Focus:**  
-CPU-optimized inference  
-Architecture ablations  
-Custom module integration  
-
----
-
-## 🎯 What I'm Exploring
-- Long-context vision architectures  
-- Efficient MOT without re-ID models  
-- Multimodal fusion for retrieval  
-- Model compression & CPU-first detectors  
+### Visualization & Analysis
+- **Matplotlib / Seaborn** for deep experiment inspection  
+- Custom plots for **tracking metrics, drift, and scaling behavior**
 
 ---
 
-## 🌐 Connect With Me
-- **LinkedIn:** https://www.linkedin.com/in/yravr/  
-- **Email:** adithyavardhanreddy2003@gmail.com  
+## 🎯 Current Research Directions
+- **Long-context vision architectures**  
+  Exploring how spatial dependencies scale beyond standard receptive fields  
+
+- **Efficient MOT without heavy re-ID**  
+  Reducing dependency on appearance embeddings while maintaining ID stability  
+
+- **Multimodal fusion systems**  
+  Aligning image-text representations beyond basic embedding similarity  
+
+- **CPU-first model optimization**  
+  Identifying architectural bottlenecks under constrained compute  
+
+- **Model behavior diagnostics**  
+  Studying sensitivity to noise, resolution shifts, and distribution drift  
+
+---
+
+## 📈 Experimental Mindset & Research Approach
+- Treat every project as a **controlled experiment**, not a one-off implementation  
+- Design **ablation-first workflows** to isolate architectural impact  
+- Track **non-obvious metrics** (stability, variance, failure patterns)  
+- Emphasize **repeatability across seeds, configs, and environments**  
+- Prefer **small, explainable experiments** over large opaque training runs  
+
+---
+
+## 🌐 Connect & Work
+- Open to **research collaborations and system-level ML discussions**  
+- Interested in **architecture R&D, efficient vision systems, and retrieval pipelines**  
+- Focused on roles involving **deep experimentation, not just model usage**  
+- GitHub: https://github.com/Y-R-A-V-R-5  
+- LinkedIn: https://www.linkedin.com/in/yravr/  
+- Email: adithyavardhanreddy2003@gmail.com  
 
 ---
 

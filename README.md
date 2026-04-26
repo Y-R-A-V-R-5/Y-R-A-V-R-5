@@ -1,171 +1,117 @@
 # 👋 Hi, I'm Adithya Vardhan Reddy  
 **ML Engineer | Computer Vision | Multimodal Retrieval | Architecture-Level R&D**
 
+---
 
 ## 🚀 Overview
-ML Engineer specializing in **Computer Vision, Multimodal Retrieval, and Architecture R&D**, focused on building **efficient, interpretable, and reproducible systems under real-world constraints**.
+ML Engineer focused on **designing efficient, interpretable ML systems under real-world constraints**.
 
-- Design **CPU-efficient pipelines** without relying on heavy GPU scaling  
-- Explore **model behavior (failure modes, drift, sensitivity)** beyond surface metrics  
-- Build **modular experimental systems** for controlled ablations  
-- Work on **architecture-level innovation** (not just training tweaks)  
-- Bridge **research ideas → deployable systems**
-
----
-
-## ⚡ Core Engineering Philosophy
-- **Behavior > Benchmark**  
-  Accuracy alone is insufficient — emphasis on *why models fail, drift, or destabilize*
-
-- **CPU-first thinking**  
-  Systems are designed under constrained compute to expose inefficiencies early
-
-- **Experiments as systems**  
-  Reproducibility, parameter isolation, and structured ablations are mandatory
-
-- **Architecture over hacks**  
-  Preference for structural improvements vs post-hoc tricks
-
-- **Measure what matters**  
-  Latency, FLOPs, stability, ID-switches, and robustness tracked alongside accuracy
+- Build **CPU-efficient pipelines** with measurable latency–accuracy trade-offs  
+- Study **model behavior** (failure modes, drift, sensitivity) beyond benchmark scores  
+- Develop **architecture-level modifications** (not just training optimizations)  
+- Create **modular, reproducible experiment systems** for controlled evaluation  
+- Translate **research ideas into deployable, constraint-aware systems**
 
 ---
 
-## 🚀 What I Do
-End-to-end engineering across:
+## ⚙️ Core Work Domains
 
-### ⚙️ YOLO Architecture Engineering
-- Custom modules & backbone–head hybridization (v8 → v11)  
-- Cross-generation architecture experiments  
-- Shape-consistent YAML integration & profiling  
-- CPU-optimized inference workflows
+### YOLO Architecture Engineering
+- Cross-version design (**v8 → v11 hybrids**) with backbone–head decoupling  
+- Custom modules integrated via **shape-consistent YAML pipelines**  
+- Focus on **tiny-object sensitivity & feature preservation**  
+- Profiling **FLOPs, latency, and structural efficiency (CPU-bound)**  
 
-### 🎯 Multi-Object Tracking (MOT)
-- Implementations: **SORT / DeepSORT / OCSORT**  
-- Custom proxy metrics: ID-switch analysis, track-length stats, active ID curves  
-- Trajectory visualizations & tracker behavior comparisons
+### Multi-Object Tracking (MOT)
+- Implemented **SORT / DeepSORT / OCSORT** under unified pipelines  
+- Analyze **ID-switches, track continuity, and failure cases**  
+- Develop **proxy metrics beyond MOTA** for real-world reliability  
+- Visual diagnostics: **trajectory behavior & temporal consistency**
 
-### 🔍 Multimodal Retrieval Systems
-- CLIP-based image–text embeddings  
-- NNDescent indexing, UMAP clustering  
-- Metadata-conditioned multimodal search
+### Multimodal Retrieval
+- **CLIP-based embedding systems** (image–text alignment)  
+- ANN search using **NNDescent / FAISS**  
+- **UMAP clustering** for structure discovery  
+- Metadata-aware **filtered semantic retrieval**
 
-### 🧪 R&D Experimentation
-- Reproducible repositories  
-- Architecture ablations, profiling, experiment logs  
-- CPU-only model debugging pipelines
+### Experimental ML Systems
+- Fully **reproducible pipelines (config-driven experiments)**  
+- Structured **ablations for architecture validation**  
+- Controlled studies on **noise, resolution, and scaling effects**  
+- CPU-first debugging for **true bottleneck identification**
 
 ---
 
 ## 🧩 Featured Projects
 
-### 🔵 Vision Systems & Tracking
-**VisionTracker**
+### VisionTracker
+- YOLOv11 + MOT benchmarking system  
+- Unified evaluation across **SORT / DeepSORT / OCSORT**  
+- Metrics: **ID-switches, fragmentation, track lifetime**  
+- Includes **trajectory visualization & sequence diagnostics**  
+- Built for **real-world tracker comparison**
 
-- End-to-end benchmarking suite combining **YOLOv11 + MOT pipelines**
-- Supports **SORT / DeepSORT / OCSORT** with unified evaluation interface
-- Tracks **ID-switches, track fragmentation, lifetime statistics**
-- Includes **trajectory visualization + sequence-level diagnostics**
-- Designed for **real-world comparison**, not just synthetic metrics
-  
-**Tech:** YOLOv11m, SORT, DeepSORT, OCSORT, custom metrics  
-**Repo:** https://github.com/Y-R-A-V-R-5/VisionTracker
+🔗 https://github.com/Y-R-A-V-R-5/VisionTracker
 
 ---
 
-### 🔵 Architecture Research & YOLO Engineering
-**YOLO-Tweaks**
-- Cross-generation experimentation (**v8 / v10 / v11 hybrids**)
-- Flexible **backbone–head swapping via YAML-driven configs**
-- Focus on **tiny-object detection & feature retention**
-- Benchmarks **FLOPs vs CPU latency vs accuracy trade-offs**
-- Enables rapid testing of **custom modules & structural variants**
+### YOLO-Tweaks
+- Cross-generation YOLO architecture experimentation  
+- Backbone–head hybridization via **modular configs**  
+- Focus: **tiny-object detection & efficiency trade-offs**  
+- Benchmarks **FLOPs vs CPU latency vs accuracy**  
+- Rapid testing of **custom structural variants**
 
-**Repo:** https://github.com/Y-R-A-V-R-5/YOLO-Tweaks
-
----
-
-
-## 🏗️ Industrial & Private Work (Non-Public Due to IP)
-
-### 🧬 Custom Detection Systems
-**SerpensGate-YOLOv8**
-- Domain-specific backbone for **plant disease detection**
-- Integrates **SerpensELAN, DySnake, CBAM** for feature refinement
-- Built as a **CPU-only inference pipeline**
-- Optimized for **data-specific patterns rather than generic benchmarks**
-- Includes internal evaluation on **robustness to lighting & texture variation**
+🔗 https://github.com/Y-R-A-V-R-5/YOLO-Tweaks
 
 ---
 
-### 🔎 Multimodal Retrieval System
-- Built on **CLIP (ViT-B/32) embeddings** for image-text alignment
-- Uses **NNDescent for scalable ANN search**
-- **UMAP-based clustering** for structure discovery & visualization
-- Supports **metadata-conditioned retrieval (filtered semantic search)**
-- Designed for **low-latency querying with large embedding spaces**
+## 🏗️ Industrial & Private Work
+
+### SerpensGate-YOLOv8
+- Custom backbone for **plant disease detection**  
+- Modules: **SerpensELAN, DySnake, CBAM**  
+- Optimized **CPU-only inference pipeline**  
+- Tuned for **domain-specific feature patterns**  
+- Evaluated under **lighting & texture variability**
+
+### Multimodal Retrieval System
+- **CLIP (ViT-B/32)** embedding pipeline  
+- ANN indexing via **NNDescent**  
+- **UMAP-based clustering & visualization**  
+- Metadata-conditioned **semantic search**  
+- Designed for **low-latency large-scale retrieval**
 
 ---
 
 ## 🛠 Technical Stack
 
-### ML & Vision
-- **PyTorch** for flexible model experimentation and low-level control  
-- **YOLO (v8–v11)** with custom architectural modifications  
-- **OpenCV** for preprocessing, pipeline integration, and visualization  
-- Strong focus on **CPU-bound optimization and profiling**
-
-### Retrieval & Indexing
-- **CLIP** for multimodal embedding generation  
-- **FAISS / NNDescent** for efficient nearest neighbor search  
-- Emphasis on **scalable indexing under memory constraints**
-
-### Engineering & Systems
-- **Python** with modular, reusable pipeline design  
-- **Git** for version-controlled experimentation  
-- Structured workflows for **ablation tracking and reproducibility**
-
-### Visualization & Analysis
-- **Matplotlib / Seaborn** for deep experiment inspection  
-- Custom plots for **tracking metrics, drift, and scaling behavior**
+**ML & Vision:** PyTorch, YOLO (v8–v11), OpenCV  
+**Retrieval:** CLIP, FAISS, NNDescent  
+**Engineering:** Python, Git, modular ML systems  
+**Analysis:** Matplotlib, Seaborn  
 
 ---
 
-## 🎯 Current Research Directions
-- **Long-context vision architectures**  
-  Exploring how spatial dependencies scale beyond standard receptive fields  
-
-- **Efficient MOT without heavy re-ID**  
-  Reducing dependency on appearance embeddings while maintaining ID stability  
-
-- **Multimodal fusion systems**  
-  Aligning image-text representations beyond basic embedding similarity  
-
-- **CPU-first model optimization**  
-  Identifying architectural bottlenecks under constrained compute  
-
-- **Model behavior diagnostics**  
-  Studying sensitivity to noise, resolution shifts, and distribution drift  
+## 🎯 Research Directions
+- Long-context vision architectures  
+- Efficient MOT without heavy re-identification  
+- Multimodal fusion beyond embedding similarity  
+- CPU-first architectural optimization  
+- Model sensitivity to noise, scale, and distribution shift  
 
 ---
 
-## 📈 Experimental Mindset & Research Approach
-- Treat every project as a **controlled experiment**, not a one-off implementation  
-- Design **ablation-first workflows** to isolate architectural impact  
-- Track **non-obvious metrics** (stability, variance, failure patterns)  
-- Emphasize **repeatability across seeds, configs, and environments**  
-- Prefer **small, explainable experiments** over large opaque training runs  
+## 📈 Research Approach
+- **Ablation-first design** to isolate architectural impact  
+- Track **stability, variance, and failure patterns**  
+- Ensure **reproducibility across seeds & configs**  
+- Prefer **controlled experiments over large opaque runs**  
+- Focus on **understanding model behavior, not just outputs**
 
 ---
 
-## 🌐 Connect & Work
-- Open to **research collaborations and system-level ML discussions**  
-- Interested in **architecture R&D, efficient vision systems, and retrieval pipelines**  
-- Focused on roles involving **deep experimentation, not just model usage**  
-- GitHub: https://github.com/Y-R-A-V-R-5  
-- LinkedIn: https://www.linkedin.com/in/yravr/  
-- Email: adithyavardhanreddy2003@gmail.com  
-
----
-
-Thanks for stopping by — feel free to explore my work and reach out! 🚀
+## 🌐 Connect
+GitHub: https://github.com/Y-R-A-V-R-5  
+LinkedIn: https://www.linkedin.com/in/yravr/  
+Email: adithyavardhanreddy2003@gmail.com
